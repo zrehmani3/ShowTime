@@ -1,14 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-const WatchList = require('./WatchList');
-
-export default class App extends React.Component {
+class WatchList extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>ShowTime</Text>
-        <WatchList />
+        <Text>Your Shows</Text>
       </View>
     );
   }
@@ -17,6 +14,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffd',
   },
 });
+
+module.exports = WatchList;

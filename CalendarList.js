@@ -33,6 +33,7 @@ class CalendarList extends React.PureComponent<Props> {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    padding: 24,
   },
 });
 
